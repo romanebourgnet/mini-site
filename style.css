@@ -1,0 +1,123 @@
+body{
+margin:0;
+padding:0;
+}
+
+/********************
+***ecran d'accueil***
+*********************/
+header{
+height:100vh;
+width:100%;
+}
+
+.mon-titre{
+position: relative;
+width:90%;
+top:45vh;
+margin:auto;
+background-color: rgba(0, 0, 0, 0.8);
+text-align: center;
+}
+
+header h1 {
+font-size: 35px;
+color: #ffffff;
+padding: 30px;
+}
+
+section{
+  min-height: 100vh;
+}
+
+#section2{
+  background-color: grey;
+
+}
+html{
+  background-color: #C7AA84;
+}
+
+/*************
+*****Menu*****
+**************/
+
+#logo{
+  height: 50px;
+  position: relative;
+  padding: 25px;
+  top: 10px;
+}
+
+#logo img {
+  width: 60px;
+float: left;
+opacity: 0.5;
+}
+
+nav ul li.btn:hover a{
+color: #727676;
+border-color: white;
+}
+
+nav ul {
+  list-style: none;
+  float:left;
+  padding-left: 40%;
+}
+
+nav li {
+  display: inline;
+  padding-right: 25px;
+}
+
+nav a {
+  color: #C7AA84;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #000000;
+  z-index: 99;
+}
+
+
+h2{
+  text-align: center;
+  padding-top: 50px;
+}
+
+p {
+  font-size: 20px;
+  margin: 40px;
+  text-align: left;
+padding-top: 100px;
+  margin-left:30%;
+  margin-right: 30%;
+}
+
+/*************
+****Footer****
+**************/
+
+footer {
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+  min-height: 200px;
+  background-color: black;
+}
+
+#reseaux-sociaux {
+  text-align: center;
+}
+
+#reseaux-sociaux img{
+  padding: 20px;
+  width: 40px;
+}
