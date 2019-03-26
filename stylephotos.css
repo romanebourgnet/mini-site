@@ -30,7 +30,11 @@ padding: 30px;
 /*************
 *****Menu*****
 **************/
-
+img{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
 nav ul {
   list-style: none;
   float:left;
