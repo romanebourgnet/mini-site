@@ -31,12 +31,35 @@ padding: 30px;
 /*************
 *****Menu*****
 **************/
+img.carte{
+  display: block;
+  margin: auto;
+  width:70%;
+}
+
+img.marseille1{
+  padding: 110px;
+  display: block;
+}
+img.marseille2{
+  padding: 110px;
+  display: block;
+}
+img.marseille3{
+  padding: 110px;
+  display: block;
+}
 
 nav ul {
   list-style: none;
   float:left;
   padding-left: 40%;
 }
+
+p.1{
+margin-top: auto;
+}
+
 nav a {
   color: #C7AA84;
   font-size: 20px;
