@@ -56,8 +56,21 @@ nav ul {
   padding-left: 40%;
 }
 
-p.1{
-margin-top: auto;
+a img.top{
+  width: 60px;
+  padding-left:95%;
+  opacity:0.5;
+  z-index: 99;
+    top: 80%;
+  position: fixed;
+}
+
+
+p{
+  font-size: 30px;
+  text-align: center;
+padding-top: 150px;
+  margin:30px;
 }
 
 nav a {
